@@ -3,13 +3,14 @@
 :root {
   --page-background: #ffffff;
   --menu-list: #2e2f42;
-  --btn-filters: #F4F4FD;
+  --btn-filters: #f4f4fd;
+  --paragraph-filters: #434455;
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
-  background-color:var(--page-background);
+  background-color: var(--page-background);
 }
 
 .list {
@@ -136,16 +137,16 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 
 .hero-button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .hero-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /* _____Section 2 feature_____ */
@@ -153,9 +154,7 @@ body {
 }
 
 .hidden-header {
-
 }
-
 
 .feature-list {
 }
@@ -301,19 +300,16 @@ body {
 
 .filters-button:hover {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .filters-button:focus {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /* _____rows project cards_____ */
-/* _____row 1_____ */
 .cards {
-}
-.row-one-cards {
 }
 
 .card {
@@ -326,7 +322,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--menu-list);
 }
 
 .card-paragraph {
@@ -334,15 +330,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--paragraph-filters);
 }
-
-/* _____row 2_____ */
-.row-two-cards {
-}
-
-/* _____row 3_____ */
-.row-three-cards {
-}
-
 /* _____footer (page 1)_____ */
