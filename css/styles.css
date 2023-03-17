@@ -1,7 +1,15 @@
 /* _________________PAGE 1 - STUDIO_________________ */
 
+:root {
+  --page-background: #ffffff;
+  --menu-list: #2e2f42;
+  --btn-filters: #F4F4FD;
+}
+
 body {
   font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color:var(--page-background);
 }
 
 .list {
@@ -19,11 +27,11 @@ body {
 }
 
 .header-logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -49,7 +57,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--menu-list);
 }
 
 .header-item {
@@ -57,12 +65,20 @@ body {
 .header-link {
 }
 
+.header-link:hover {
+  color: #404bbf;
+}
+
+.header-link:focus {
+  color: #404bbf;
+}
+
 /* _____Navigation contacts_____ */
 .header-address {
+  font-style: normal;
 }
 
 .header-address-mail {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -70,13 +86,28 @@ body {
   color: #434455;
 }
 
+.header-address-mail:hover {
+  color: #404bbf;
+}
+
+.header-address-mail:focus {
+  color: #404bbf;
+}
+
 .header-address-phone {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-address-phone:hover {
+  color: #404bbf;
+}
+
+.header-address-phone:focus {
+  color: #404bbf;
 }
 
 .main-subtitles {
@@ -105,12 +136,26 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4D5AE5;
   cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #404BBF;
+}
+
+.hero-button:focus {
+  background-color: #404BBF;
 }
 
 /* _____Section 2 feature_____ */
 .feature {
 }
+
+.hidden-header {
+
+}
+
 
 .feature-list {
 }
@@ -240,7 +285,7 @@ body {
 }
 
 .filters-button {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -251,14 +296,17 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  background-color: var(--btn-filters);
 }
 
 .filters-button:hover {
   color: #ffffff;
+  background-color: #404BBF;
 }
 
 .filters-button:focus {
   color: #ffffff;
+  background-color: #404BBF;
 }
 
 /* _____rows project cards_____ */
