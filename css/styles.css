@@ -29,7 +29,6 @@ body {
 
 .header-logo-web {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -42,7 +41,6 @@ body {
 
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -54,7 +52,6 @@ body {
 }
 
 .header-list {
-
 }
 
 .header-item {
@@ -81,19 +78,18 @@ body {
 }
 
 .header-address-link {
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: var(--paragraph-filters);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-filters);
 }
 
 .header-address-link:hover {
-  color:#404bbf
+  color: #404bbf;
 }
 
 .header-address-link:focus {
-  color:#404bbf
+  color: #404bbf;
 }
 
 .main-subtitles {
@@ -105,7 +101,6 @@ color: var(--paragraph-filters);
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -153,7 +148,6 @@ color: var(--paragraph-filters);
 }
 
 .feature-paragraph {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -165,7 +159,6 @@ color: var(--paragraph-filters);
 }
 
 .products-text {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -183,7 +176,6 @@ color: var(--paragraph-filters);
 
 /* _____Section 4 team_____ */
 .team-tytle {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -212,7 +204,6 @@ color: var(--paragraph-filters);
 }
 
 .team-job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -227,7 +218,6 @@ color: var(--paragraph-filters);
 
 .footer-logo-web {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -240,7 +230,6 @@ color: var(--paragraph-filters);
 
 .footer-logo-studio-white {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -252,7 +241,6 @@ color: var(--paragraph-filters);
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -270,7 +258,6 @@ color: var(--paragraph-filters);
 
 .filters-button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -311,7 +298,6 @@ color: var(--paragraph-filters);
 }
 
 .card-paragraph {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
